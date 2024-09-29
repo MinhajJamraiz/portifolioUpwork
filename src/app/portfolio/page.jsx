@@ -3,39 +3,41 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
+import Yelp from "./../../images/yelp.jpeg";
+import Bazzar from "./../../images/bazzar.jpeg";
 
 const projectList = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "React Commerce",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Zatca",
+    desc: "The ZATCA Electronic Invoice website in Saudi Arabia allows businesses and individuals to create and verify electronic invoices effortlessly. Utilizing special QR codes compliant with ZATCA's regulations, it ensures the authenticity of invoices. No sign-up is required, making it accessible and user-friendly. The platform enhances efficiency, safety, and adherence to tax regulations.",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    link: "#",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "BreathEx",
+    desc: "BreathEx is a cutting-edge medical application designed to detect tuberculosis (TB) and COVID-19 through advanced image processing and machine learning. Developed using Flutter for the frontend and Node.js/Flask for the backend, the application ensures a seamless user experience for healthcare professionals and patients. It features sophisticated image analysis algorithms for rapid and accurate detection, employs Bloc state management for efficient data flow, and utilizes MongoDB for robust data storage, optimizing performance and scalability. BreathEx empowers doctors to make timely diagnoses based on detailed patient image analysis while facilitating secure interactions between doctors, patients, and administrators, ultimately enhancing the quality of healthcare delivery.",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    link: "#",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "Bazzar",
+    desc: "Bazzar is an innovative marketplace project where backend development was led using TypeScript and Node.js to create a seamless platform for buyers, sellers, and vendors. The project features robust API endpoints and utilizes MongoDB for efficient database interactions, ensuring smooth server-side operations. Through this development, expertise in TypeScript's data type orientation was gained, enhancing code reliability and scalability for an improved marketplace experience. Additionally, the application was successfully deployed on Heroku, providing valuable proficiency in platform-as-a-service (PaaS) deployment strategies to ensure scalable and reliable performance.",
+    img: Bazzar,
+    link: "#",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
+    title: "YELP CLONE",
+    desc: "This project features a comprehensive Yelp clone, designed as a restaurant management system using PostgreSQL for robust database handling, Node.js for a reliable backend, and React.js for a responsive frontend interface. Key functionalities include streamlined restaurant registration, customer reviews, and ratings, facilitating seamless interaction between users and dining establishments. The project highlights expertise in relational databases, backend and frontend development, and deployment techniques using Jenkins for continuous integration and delivery. Overall, it showcases a commitment to creating user-centered applications that enhance engagement and improve the dining experience.",
+    img: Yelp,
+    link: "#",
   },
 ];
 
@@ -64,16 +66,15 @@ const Page = () => {
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
-                <div className="flex flex-col gap-8 text-white ">
+                <div className="flex flex-col items-center gap-8 text-white ">
                   <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                     {item.title}
                   </h1>
                   <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[400px] lg:h-[280px] xl:w-[500px] xl:h-[300px]">
-                    <Image src={item.img} alt=" " fill />
+                    {/* <Image src={item.img} alt=" " fill /> */}
+                    <Image src={item.img} fill></Image>
                   </div>
-                  <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]">
-                    {item.desc}{" "}
-                  </p>
+                  <p className=" ml-28 mr-28 text-center">{item.desc} </p>
                   <Link href={item.link} className="flex justify-end ">
                     <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
                       See Demo

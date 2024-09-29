@@ -30,26 +30,44 @@ const Page = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIO DESCRIPTION */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo
-              sit labore hic illo corrupti temporibus voluptates ipsam
-              asperiores rem. Atque molestiae corporis unde quas sint dolores
-              dolorum facere tempora!
+              At Workaholic Studio, we’re more than just a software house—we're
+              a passionate team of tech enthusiasts dedicated to turning
+              innovative ideas into powerful solutions. Founded by a group of
+              experienced developers and designers, our studio emerged from a
+              shared vision: to create impactful software that drives success
+              for businesses of all sizes. With a diverse skill set ranging from
+              app development to UX/UI design, we pride ourselves on our ability
+              to adapt and evolve alongside the ever-changing tech landscape.
+              Our approach is collaborative and client-focused; we believe that
+              the best results come from understanding your unique needs and
+              challenges. Our commitment to excellence is reflected in every
+              project we undertake. We combine creativity with cutting-edge
+              technology to deliver tailor-made solutions that not only meet but
+              exceed expectations. At Workaholic Studio, we thrive on challenges
+              and are fueled by a relentless desire to innovate. Join us on this
+              journey as we continue to push boundaries and create software that
+              transforms industries. Let's work together to bring your vision to
+              life!
             </p>
             {/* BIO QUOTE */}
-            <span className="italic ">Lorem ipsum dolor sit amet.</span>
+            <span className="italic ">
+              "Great things in business are never done by one person; they're
+              done by a team of people." — Steve Jobs
+            </span>
             {/* BIO SIGNATURE */}
             <div className="self-end">
               <svg
                 width="185"
                 height="77"
-                viewBox="0 0 370 114"
+                viewBox="0 0 347 290"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M66 2C66 29.4851 68.6687 64.5118 49.3333 87.4444C42.4997 95.5495 35.7683 97.6796 26.2222 101C20.002 103.164 8.87322 103.873 4 99C-0.260934 94.7391 2.94804 88.1756 8.22222 86.2222C13.7053 84.1915 17.942 84 23.7778 84C33.359 84 41.3193 83.5602 50.2222 87C56.6125 89.469 63.5773 91.9131 69.5555 95.5C75.4778 99.0533 87.1838 104.357 93.5 99.4444C96.1292 97.3995 96.2752 92.5118 96.9444 89.5C97.9646 84.9092 92.6432 83.2024 89 83C84.472 82.7484 82.3397 81.8856 82 88C81.8025 91.5554 83.5627 94.4193 86 97C88.9648 100.139 92.0717 100.96 96 98.7778C99.3106 96.9386 98 90.7299 98 87.5C98 85.0327 98.4365 83.1348 99.2222 80.7778C100.357 77.3743 99.2311 78.4486 101.5 77.9444C105.352 77.0886 108 76.4766 108 81.5C108 85.6646 109 89.3473 109 93.5C109 100.142 108.863 95.0454 110.5 91.4444C112.765 86.4616 116.631 81.205 121.5 78.5C127.057 75.4129 126 82.1509 126 85.5C126 92.5532 124.42 102 134 102C142.932 102 153 102.569 153 91.2222C153 87.1735 153.772 81.3206 148 81C141.934 80.663 142.107 81.8068 139.5 86.5C134.378 95.7204 137.972 105 149.5 105C153.589 105 153.996 99.8977 155.5 96.8889C157.902 92.0843 161 85.4067 161 80C161 74.0547 158.407 82.7413 157.222 84.2222C155.194 86.7574 155 92.5718 155 95.7778C155 99.9302 153.8 104.999 158 107.222C161.954 109.316 164.884 106.382 167.778 103.778C171.15 100.743 175.896 99.1107 180 97C186.143 93.8409 191.659 91.4099 198.222 89.2222C206.505 86.4614 214.839 87 223.5 87C230.613 87 231.628 104 222.5 104C216.954 104 199.251 107.814 207 95.2222C211.456 87.9805 214.484 80.6007 220 73.7778C229.781 61.6805 242.696 50.8197 256.222 43C264.769 38.0591 274.192 34.6264 283 30.2222C286.55 28.4473 280.07 32.3343 278.5 33.5556C271.707 38.8391 266.609 45.3914 260.556 51.4444C255.356 56.6444 250.682 61.459 246.5 67.5C242.917 72.6757 239.364 77.3825 236.556 83C233.829 88.4524 231.82 94.3142 228.556 99.4444C226.693 102.371 225.518 107.823 222.5 109.5C214.795 113.78 217.517 100.438 218.056 95.0556C218.678 88.8318 227.982 85.7572 233.056 88.6111C239.614 92.3003 245.506 97.7883 252 101.778C254.886 103.551 259.46 107 263 107C271.267 107 273.32 81.9392 268.778 77.2222C264.112 72.3774 261.206 80.5039 261 84C260.576 91.2135 257.836 96.9269 264.778 102C272.242 107.454 285.041 112.276 292.111 104.833C298.002 98.6323 304.301 90.8902 308.556 83.4444C310.355 80.295 310.132 84.6251 309.444 86C305.387 94.1158 303 102.264 303 111.5C303 116.021 337.534 99.1863 340.5 98C347.33 95.2679 355.47 93.8299 361.778 90C363.935 88.6902 365.473 88 368 88"
+                  d="M49.9455 136.388C38.1245 147.135 14.5137 114.467 10.4695 108.385C6.52187 102.447 1.90402 96.0223 1.65254 88.897C1.11206 73.5833 22.7194 78.0741 28.1035 80.6812C68.7554 100.366 54.5937 156.191 44.9359 188.99C37.6569 213.71 22.0022 238.049 16.3809 263.032C13.799 274.507 28.6028 242.927 34.3655 232.674C50.1036 204.671 66.7077 175.065 81.7066 146.758C96.6642 118.53 105.91 100.586 118.327 72.4153C122.065 63.9361 128.296 55.7317 128.296 46.4653C128.296 38.2434 122.637 61.926 120.481 69.8604C112.758 98.2897 108.618 118.553 103.348 148.512C96.4859 187.523 90.1297 227.595 88.119 267.24C87.7713 274.096 85.5563 290.038 91.9263 287.479C102.793 283.114 106.937 269.446 113.468 259.726C157.535 194.138 197.246 124.899 231.796 53.8295C237.851 41.3734 243.556 28.7482 247.826 15.5558C248.036 14.9089 252.161 3.68054 247.426 9.84485C231.855 30.1163 202.896 72.9396 224.181 98.0146C249.481 127.82 303.358 80.6936 319.214 61.7948C327.652 51.7371 350.578 19.8588 344.212 4.63481C340.975 -3.1049 316.59 8.64698 313.453 12.5C301.037 27.7475 292.681 50.1011 292.913 69.7602C293.056 81.8744 297.094 93.6037 298.173 105.629C300.607 132.743 296.06 160.344 282.894 184.381C274.3 200.071 261.195 214.928 243.618 220.751C224.145 227.202 192.366 220.874 196.528 193.398C202.091 156.668 247.162 136.268 276.281 122.963C289.156 117.08 306.691 111.35 318.963 103.425C348.76 84.1844 315.734 102.011 341.206 80.4808"
                   stroke="black"
-                  strokeWidth="2"
+                  stroke-width="3"
+                  stroke-linecap="round"
                 />
               </svg>
             </div>
@@ -130,6 +148,21 @@ const Page = () => {
               <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Redux
               </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Spring Boot
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Typescript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Flutter
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                BootStrap
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                SQL lite
+              </div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
             <div>
@@ -169,7 +202,7 @@ const Page = () => {
               transition={{ delay: 0.2 }}
               className="font-bold text-2xl"
             >
-              EXPERIENCE
+              PROJECT TIMELINE
             </motion.h1>
             {/* EXPERIENCE LIST  */}
             <motion.div
@@ -183,17 +216,19 @@ const Page = () => {
                 <div className="w-1/3">
                   {/* JOB TITLE  */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    JOB TITLE
+                    Zatca
                   </div>
                   {/* JOB DESCRIPTION  */}
-                  <div className="p-3 text-sm italic">JOB DESCRIPTION</div>
+                  <div className="p-3 text-sm italic">
+                    Electronic Invoice Website backend
+                  </div>
                   {/* JOB DATE  */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    JOB DATE
+                    02-01-2024
                   </div>
                   {/* JOB COMPANY  */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    JOB COMPANY
+                    Workaholic Studio
                   </div>
                 </div>
                 {/* CENTER */}
@@ -224,17 +259,19 @@ const Page = () => {
                 <div className="w-1/3">
                   {/* JOB TITLE  */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    JOB TITLE
+                    BreathEx
                   </div>
                   {/* JOB DESCRIPTION  */}
-                  <div className="p-3 text-sm italic">JOB DESCRIPTION</div>
+                  <div className="p-3 text-sm italic">
+                    Medical Application to detect TB and COVID-19.
+                  </div>
                   {/* JOB DATE  */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    JOB DATE
+                    03-03-2024
                   </div>
                   {/* JOB COMPANY  */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    JOB COMPANY
+                    Workaholic Studio
                   </div>
                 </div>
               </div>
@@ -244,17 +281,19 @@ const Page = () => {
                 <div className="w-1/3">
                   {/* JOB TITLE  */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    JOB TITLE
+                    Bazzar
                   </div>
                   {/* JOB DESCRIPTION  */}
-                  <div className="p-3 text-sm italic">JOB DESCRIPTION</div>
+                  <div className="p-3 text-sm italic">
+                    Innovative Marketplace project backend
+                  </div>
                   {/* JOB DATE  */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    JOB DATE
+                    10-06-2024
                   </div>
                   {/* JOB COMPANY  */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    JOB COMPANY
+                    Workaholic Studio
                   </div>
                 </div>
                 {/* CENTER */}
@@ -267,6 +306,39 @@ const Page = () => {
                 </div>
                 {/* RIGHT  */}
                 <div className="w-1/3"></div>
+              </div>
+              {/* EXPERIENCE LIST ITEM  4 */}
+              <div className="flex justify-between h-48">
+                {/* RIGHT  */}
+                <div className="w-1/3"></div>
+
+                {/* CENTER */}
+                <div className="w-1/6">
+                  {/* LINE  */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* CIRCLE  */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* LEFT  */}
+                <div className="w-1/3">
+                  {/* JOB TITLE  */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Yelp Clone
+                  </div>
+                  {/* JOB DESCRIPTION  */}
+                  <div className="p-3 text-sm italic">
+                    A resturant management system backend.
+                  </div>
+                  {/* JOB DATE  */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    10-09-2024
+                  </div>
+                  {/* JOB COMPANY  */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    Workaholic Studio
+                  </div>
+                </div>
               </div>
             </motion.div>
           </div>

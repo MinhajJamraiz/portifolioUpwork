@@ -68,7 +68,7 @@ const ContactPage = () => {
           className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
           <span>
-            Dear <span name="to_name">Micro Pixel</span>,
+            Dear <span name="to_name">Workaholic Studio</span>,
           </span>
           <textarea
             rows={6}
